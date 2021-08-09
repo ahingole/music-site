@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.showcase {
+    width: 100%;
+    /* padding-left: 100px; */
+    /* padding-right:100px ; */
+    height: 100vh;
+    background-image: url(./images/headphone\ \(1\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    height: 50px;
+    background-color: rgb(29, 28, 28);
+    position: fixed;
+}
+
+.navbar ul {
+    list-style: none;
+    text-decoration: none;
+     position: fixed; /* Make it stick, even on scroll */  
+     list-style-type: none;
+
+
+}
+
+.navbar ul li {
+    float: left;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    font-size: 17px;
+    padding: 15px;
+    /* margin: 5px; */
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+    /* background-color: #dddddd; */
+}
+
+.navbar a:hover {
+    background-color: lightgrey;
+}
+
+.heading h1 {
+    text-align: center;
+    position: relative;
+    top: 200px;
+    font-size: 4rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.heading h3 {
+    text-align: center;
+    position: relative;
+    top: 220px;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.heading p {
+    text-align: center;
+    position: relative;
+    top: 230px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+}
+#page{
+    background-color: whitesmoke;
+
+}
+#new1{
+    height: 100vh;
+    background-image: url(./images/sky.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+@media (max-width: 576px) {
+
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .navbar ul {
+        list-style: none;
+        text-decoration: none;
+         position: relative; /* Make it stick, even on scroll */  
+         list-style-type: none;
+    
+    
+    }
+     li{
+        list-style: none;
+        text-decoration: none;
+    }
+    .navbar a {
+        display: block;
+        color: white;
+        font-size: 17px;
+        /* margin: 5px; */
+        margin-left: 10px;
+        width: 300px;
+        background-color: teal;
+        text-align: center;
+        padding: 15px;
+    }
+    .heading h1 {
+        text-align: center;
+        position: relative;
+        top: 240px;
+        font-size: 27px;
+        font-weight: 600;
+        color: #fff;
+    }
+    
+    .heading h3 {
+        text-align: center;
+        position: relative;
+        top: 230px;
+        color: #fff;
+        font-size: 27px;
+        font-weight: 500;
+    }
+    
+    .heading p {
+        text-align: center;
+        position: relative;
+        top: 230px;
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .text {
+      font-size: 16px;
+    }
+  }
+    
